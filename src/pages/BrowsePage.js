@@ -1,4 +1,4 @@
-import { Alert, Box, Container, Grid, Stack } from "@mui/material";
+import { Alert, Container, Grid, Stack } from "@mui/material";
 import React, { useState, useEffect } from "react";
 import MovieList from "../components/MovieList";
 import LoadingScreen from "../components/LoadingScreen";

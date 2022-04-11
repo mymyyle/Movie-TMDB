@@ -26,12 +26,9 @@ function DataContextProvider({ children }) {
   const [searchDataInput, setSearchDataInput] = useState("");
   const [sortDataInput, setSortDataInput] = useState("");
   const [filterDataInput, setFilterDataInput] = useState("");
-  const [loading, setLoading] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
   const [totalPage, setTotalPage] = useState(1);
   const [isSearch, setIsSearch] = useState(false);
-
-  console.log("loading", loading);
 
   const getData = async (params = {}) => {
     try {
