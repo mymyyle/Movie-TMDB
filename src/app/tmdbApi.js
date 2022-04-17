@@ -2,7 +2,7 @@ import apiService from "./apiService";
 
 const tmdbApi = {
   getMovies: async (params) => {
-    const url = `discover/movie/`;
+    const url = `discover/movie`;
     try {
       const data = await apiService.get(url, { params });
       return data;
